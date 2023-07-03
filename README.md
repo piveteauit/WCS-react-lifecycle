@@ -1,8 +1,21 @@
+
 # Clock Up
 
-## 1: La pendule et le compteur ne fonctionne pas (il démarre puis se stop aussitôt)
+## About
+This clockup project is for better understanding of react component life cycle
 
-[ - ] Les corrections sont à effectuer dans App.js seulement 😉
+## Installation
+1. To install dependencies run `npm install`
 
-[ x ] Ne pas switcher pour vite
-[ x ] Ne pas enlever le useStrict
+## Usage
+1. To run the project run `npm start`
+
+## Instructions
+1. Fix the clock that's not working
+
+## Restrictions
+1. Not switch to vite
+2. Not remove the useStrict part
+3. Only the App.js should be modified 
+
+
