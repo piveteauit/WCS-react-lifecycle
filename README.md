@@ -1,7 +1,8 @@
 # Clock Up
 
-## 1: La pendule et le compteur ne sont pas synchronisés
+## 1: La pendule et le compteur ne fonctionne pas (il démarre puis se stop aussitôt)
 
-[ X ] Les corrections sont à effectuer dans App.js
+[ - ] Les corrections sont à effectuer dans App.js seulement 😉
+
 [ X ] Ne pas switcher pour vite
 [ X ] Ne pas enlever le useStrict
