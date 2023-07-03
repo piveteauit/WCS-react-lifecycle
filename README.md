@@ -4,5 +4,5 @@
 
 [ - ] Les corrections sont à effectuer dans App.js seulement 😉
 
-[ X ] Ne pas switcher pour vite
-[ X ] Ne pas enlever le useStrict
+[ x ] Ne pas switcher pour vite
+[ x ] Ne pas enlever le useStrict
