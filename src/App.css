@@ -1,5 +1,14 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  height: 100vh;
+  justify-content: center;
+}
+
+.App > span:first-child {
+  margin-bottom: 30px;
 }
 
 .App-logo {
@@ -35,4 +44,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+button {
+  font-size: calc(10px + 2vmin);
 }
