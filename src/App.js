@@ -28,16 +28,19 @@ function App() {
 
     const ticker = setInterval(() => {
       if (!safeCheckTicker(ticker)) return;
-
-      const newCount = count + 1;
       
-      console.log("setCount with new value: %s", newCount)
-      
-      setCount(newCount);
+      setCount((currentCount) => {
+        return currentCount + 1;
+        
+      });
     
     }, 1_000);
     
     console.log("Ticker id is: %s", ticker);
+
+    return () => {
+      clearInterval(ticker);
+    };
 
   }, [])
 
